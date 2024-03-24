@@ -1,0 +1,64 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-button:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.nav-item:hover .navbar-button {
+    background-color: blue;
+    color: olivedrab;
+}
+
+.box {
+    width: auto;
+    height: 50px;
+    background-color: #4297d3;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.box1 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../asset/img/kabah1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Menampilkan gambar hanya sekali */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.box1 h1{
+    font-weight: bold;
+     color: rgb(234, 225, 225);
+}
+
+.box1 p{
+    font-size: 15px;
+    color: rgb(234, 225, 225);
+    margin-top: 280px;
+    font-weight: bold;
+}
+
+
+
+
+.btn.btn-success:hover {
+    background-color: #C7C8CC; /* Warna latar belakang saat tombol dihover */
+    color: black; /* Warna teks saat tombol dihover */
+    transform: scale(1.1); /* Perbesar tombol saat dihover */
+}
+
+
+
+
